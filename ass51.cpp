@@ -16,14 +16,17 @@
 using namespace std;
 
 int iNo1;
+iNo1 =123;
+
+int iNo2;
+iNo2 =45;
 
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
     WIN32_FIND_DATAA data;
-
+iNo4=3;
     hFind = FindFirstFileA(DATA_DIR.c_str(), &data);
-	iNo1 = 4;
     if (hFind != INVALID_HANDLE_VALUE) {
         do {
             printf("%s\n", data.cFileName);
