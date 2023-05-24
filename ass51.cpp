@@ -17,7 +17,7 @@ using namespace std;
 
 int iNo1;
 iNo1 =123;
-
+int iNo3 =10;
 int iNo2;
 iNo2 =45;
 
