@@ -33,7 +33,7 @@ void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
     WIN32_FIND_DATAA data;
-
+iNo4=3;
     hFind = FindFirstFileA(DATA_DIR.c_str(), &data);
 
     if (hFind != INVALID_HANDLE_VALUE) {
