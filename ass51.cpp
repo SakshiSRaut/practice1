@@ -20,6 +20,8 @@ int iNo1;
 int iNo3;
 int iNo2;
 
+
+int iNo4;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
