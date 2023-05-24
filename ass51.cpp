@@ -17,7 +17,7 @@ using namespace std;
 
 //added comment in local area 
 int iNo1;
-
+int iNo2;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
