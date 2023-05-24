@@ -16,10 +16,6 @@
 using namespace std;
 
 int iNo1;
-iNo1 =123;
-
-int iNo2;
-iNo2 =45;
 
 void get_file_list(string DATA_DIR)
 {
@@ -34,7 +30,7 @@ iNo4=3;
         FindClose(hFind);
     }
 }
-
+iNo1 =11;
 
 void enumaratefile()
 {
