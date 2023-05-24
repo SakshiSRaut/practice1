@@ -17,14 +17,7 @@ using namespace std;
 
 //added comment in local area 
 int iNo1;
-int iNo3;
-
-int iNo2;
-
-int iNo5;
-int iNo11;
-int iNo45;
-
+iNo1 =123;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
