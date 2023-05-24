@@ -15,20 +15,15 @@
 
 using namespace std;
 
-//added comment in local area 
 int iNo1;
-int iNo3;
-int iNo2;
 
-
-int iNo4;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
     WIN32_FIND_DATAA data;
 
     hFind = FindFirstFileA(DATA_DIR.c_str(), &data);
-
+	iNo1 = 4;
     if (hFind != INVALID_HANDLE_VALUE) {
         do {
             printf("%s\n", data.cFileName);
