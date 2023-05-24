@@ -24,6 +24,11 @@ int iNo2;
 int iNo5;
 int iNo11;
 int iNo4;
+void some()
+{
+	iNo4=1;
+
+}
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
