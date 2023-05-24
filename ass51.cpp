@@ -15,6 +15,7 @@
 
 using namespace std;
 
+int iNo1;
 
 void get_file_list(string DATA_DIR)
 {
