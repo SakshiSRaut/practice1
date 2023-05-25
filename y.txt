@@ -9,4 +9,12 @@ added text on github
 
 
 
+<<<<<<< HEAD
 added text in local area again 
+=======
+
+adding new text on github 
+
+
+
+>>>>>>> d62e9e52a0c307089695c281996fde15e04fea66
