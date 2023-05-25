@@ -32,6 +32,7 @@ iNo4=3;
 }
 iNo1 =11;
 
+//adding comments 
 void enumaratefile()
 {
 
