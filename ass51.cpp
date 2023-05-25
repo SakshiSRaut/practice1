@@ -20,11 +20,12 @@ int iNo1;
 int iNo4;
 
 
+int iNo2;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
     WIN32_FIND_DATAA data;
-iNo4=3;
+	iNo2=4;
     hFind = FindFirstFileA(DATA_DIR.c_str(), &data);
     if (hFind != INVALID_HANDLE_VALUE) {
         do {
@@ -34,7 +35,6 @@ iNo4=3;
     }
 }
 iNo1 =11;
-
 //adding comments 
 void enumaratefile()
 {
