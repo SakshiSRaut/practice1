@@ -21,6 +21,8 @@ int iNo4;
 
 
 int iNo2;
+int iNo3;
+iNo3=66;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
@@ -35,7 +37,6 @@ void get_file_list(string DATA_DIR)
     }
 }
 iNo1 =11;
-//adding comments 
 void enumaratefile()
 {
 
