@@ -12,13 +12,16 @@ void RegstryOperation();
 int main()
 {
     int iNo1;
-    iNo1 =11;
+    
     //FileHandling();
     //Linked_List();
     //serialization();
+
+	int iNo2;
     enumaratefile();
     //func_pointer();
     //RegstryOperation();   
+	iNo2 =21;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
