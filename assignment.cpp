@@ -12,7 +12,7 @@ void RegstryOperation();
 int main()
 {
     int iNo1;
-    
+    iNo1=11;
     //FileHandling();
     //adding comment
     //Linked_List();
