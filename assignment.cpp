@@ -11,6 +11,8 @@ void func_pointer();
 void RegstryOperation();
 int main()
 {
+    int iNo1;
+    iNo1 =11;
     //FileHandling();
     //Linked_List();
     //serialization();
