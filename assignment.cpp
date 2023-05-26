@@ -12,7 +12,7 @@ void RegstryOperation();
 int main()
 {
     int iNo1;
-    
+    //add code 
     //FileHandling();
     //adding comment
     //Linked_List();
@@ -21,8 +21,11 @@ int main()
 	int iNo2;
     enumaratefile();
     //func_pointer();
-    //RegstryOperation();   
-	iNo2 =21;
+//RegstryOperation();   
+iNo2 =21;
+	
+int iNo3 =51;
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
