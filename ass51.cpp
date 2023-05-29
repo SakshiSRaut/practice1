@@ -15,14 +15,6 @@
 
 using namespace std;
 
-int iNo1;
-
-int iNo4;
-
-
-int iNo2;
-int iNo3;
-iNo3=66;
 void get_file_list(string DATA_DIR)
 {
     HANDLE hFind;
@@ -36,16 +28,12 @@ void get_file_list(string DATA_DIR)
         FindClose(hFind);
     }
 }
-iNo1 =11;
 void enumaratefile()
 {
 
     string DATA_DIR = "C:\\Users\\admin\\Desktop\\abc\\*.*";
     //string DATA_DIR = "c:\\Users\\GilLevi\\Downloads\\GraphsSURF\\GraphsSURF\\bark\\*.jpg";
     //string OUT_DIR = "D:\\drobpox\\Dropbox\\BinaryDescriptors\\LFW\\LATCH_TXT_FILES\\LATCH8";
-
-    //Simple comments writing to check pull operation 
-
     get_file_list(DATA_DIR);
 
 }
